@@ -1,0 +1,7 @@
+cube-root 41324 8 where C<=40&S=2
+list server-time where *
+list square-root where S=3 using 65511 9
+square-root 66551 21 where C<8|C>16&^S=4
+sha-digest "Hi There! This is a test string." where C<20
+% end of script :-)
+end

@@ -1,0 +1,9 @@
+#!/bin/bash
+mv ?*.tar proj5.tar
+tar xvf proj5.tar; rm *.class; rm *.o; rm *.obj
+rm *.log
+make server
+java broker
+read -p 'Server Execution Done. Press any key to read the report file:'
+cat ?ep*.??? | more
+make clean

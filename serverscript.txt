@@ -1,0 +1,5 @@
+register cube-root
+register square-root
+register sha-digest
+register server-time
+register golden-ratio
